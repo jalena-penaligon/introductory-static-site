@@ -1,10 +1,6 @@
-/* whole page */
-
 body {
   font-family: 'Raleway', sans-serif;
 }
-
-/* header */
 
 header {
   background: #92E0E5;
@@ -13,38 +9,33 @@ header {
   padding: 0 25px;
 }
 
+header h1 {
+  float: left;
+}
+
 header nav {
   float: right;
 }
-
-header h1 {
-  float: left;
-  text-indent: -9999px;
-  background: url('../images/dog-icon.svg') no-repeat;
-  float: left;
-  height: 35px;
-  width: 35px;
-  margin-top: 8px;
-}
-
-/* primary navigation */
 
 nav li {
   display: inline-block;
   padding: 17px 10px;
 }
 
-
-nav a {
-  color: white;
-  text-decoration: none;
-}
-
-nav li:hover {
+nav li:hover{
   background: #3F8DA7;
+  color: white;
+  cursor: pointer;
 }
 
-/* hero unit */
+header h1 {
+  float: left;
+  text-indent: -9999px;
+  background: url('../images/dog-icon.svg') no-repeat;
+  height: 35px;
+  width: 35px;
+  margin-top: 8px;
+}
 
 #hero {
   background: url('../images/park.jpg') no-repeat;
@@ -55,19 +46,17 @@ nav li:hover {
 }
 
 #hero img {
-  border: 5px solid #3F8DA7;
-  border-radius: 50%;
   display: block;
   margin: auto;
   margin-bottom: 25px;
+  border-radius: 50%;
+  border: 5px solid #3F8DA7;
 }
 
 #hero h2 {
   font-size: 30px;
   margin-bottom: 25px;
 }
-
-/* links */
 
 .btn {
   background: white;
@@ -82,16 +71,6 @@ nav li:hover {
   background: #3F8DA7;
   color: white;
 }
-
-.link {
-  color: white
-}
-
-.link:hover {
-  color: #92E0E5;
-}
-
-/* columns */
 
 .three-col {
   width: 30%;
@@ -112,15 +91,12 @@ nav li:hover {
 .three-col p {
   margin-bottom: 40px;
 }
-
-/* footer */
-
 footer {
-    background: #3F8DA7;
-    color: white;
-    margin-top: 40px;
-    padding: 20px 0;
-    text-align: center;
+  background: #3F8DA7;
+  color: white;
+  margin-top: 40px;
+  padding: 20px 0;
+  text-align: center;
 }
 
 footer ul {
@@ -130,4 +106,17 @@ footer ul {
 footer li {
   display: inline-block;
   margin: 0 25px;
+}
+
+.link {
+  color: white;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #92E0E5;
 }
